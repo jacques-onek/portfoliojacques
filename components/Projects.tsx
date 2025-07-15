@@ -1,7 +1,7 @@
 import React from 'react'
 import TitleItems from './TitleItems'
-import { ProjectsData } from '@/constant'
-import CardProject, { CardProjecProps } from './CarProject'
+import CardProject from './CarProject'
+import { ProjectsData } from '@/constant';
 
 const Projects = () => {
   return (

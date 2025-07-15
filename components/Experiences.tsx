@@ -1,7 +1,9 @@
+"use client"
 import React from 'react'
-import { Experiences } from '@/constant'
 import TitleItems from './TitleItems'
 import CardExperience from './CardExperience'
+import { useTranslations } from 'next-intl'
+import { Experiences } from '@/constant'
 
 export interface ExperienceProps {
     post:string

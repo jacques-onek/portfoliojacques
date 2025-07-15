@@ -1,14 +1,17 @@
 "use client"
-import { SidebarLinks } from '@/constant'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
 import { ScrollProgress } from './magicui/scroll-progress'
 import { BlurFade } from './magicui/blur-fade'
+import { useTranslations } from 'next-intl'
+import { SidebarLinks } from '@/constant'
 
 const SideBar = () => {
  
   const [selected, setSelected] = useState("");
+
+  
 
 
   useEffect(() => {
@@ -27,7 +30,7 @@ const SideBar = () => {
     sections.forEach((section) => observer.observe(section));
   }, []);
   return (
-    <nav className=' min-h-screen w-16 bg-[#0b0b0b] py-5 fixed overflow-x-hidden z-30 '>
+    <nav className=' min-h-screen w-16 bg-sideBar py-5 fixed overflow-x-hidden z-30 '>
       <div className='flex flex-col h-[80vh] justify-around  items-center gap-5 '>
         {SidebarLinks.map((links) => (
           <div key={links.title} className={cn('rotate-90 w-fit ',selected === links.href ? "bg-[#21202048] border-t-4 scroll-smooth py-2 px-3 lg:px-5  border-t-fuchsia-600":"")}>

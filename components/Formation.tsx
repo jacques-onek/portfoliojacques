@@ -1,8 +1,7 @@
 import React from 'react'
-import { Formations } from '@/constant'
 import CardFormation from './CardFormation'
 import TitleItems from './TitleItems'
-import { div } from 'motion/react-client'
+import { Formations } from '@/constant'
 
 
 export interface FormationProps {
@@ -16,6 +15,7 @@ export interface FormationProps {
 }
 
 const Formation = () => {
+
   return (
     <section className='section-wrapper flex flex-col' id='formation'>
         <div>

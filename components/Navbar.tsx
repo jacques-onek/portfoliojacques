@@ -10,7 +10,7 @@ const Navbar = () => {
        </div>
        <div className='place-content-center '>
         <button className='w-fit bg-fuchsia-800 text-white py-2 px-6 transition duration-400 cursor-pointer hover:bg-fuchsia-600 rounded-md'>
-            <a href="http://" className='flex gap-2'> <span>CV </span> <Download className='size-5'/> </a>
+            <a href="https://cvdesignr.com/p/67ee6d0212ad3?hl=fr_FR" target='_blank' className='flex gap-2'> <span>CV </span> <Download className='size-5'/> </a>
         </button>
        </div>
     </header>

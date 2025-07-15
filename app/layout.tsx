@@ -45,7 +45,7 @@ export default  function LocaleLayout({
   return (
     <html >
       <body className={`  ${geistSans} flex flex-col text-white antialiased bg-[#111315] `} >
-          <div className="flex flex-row  justify-between  !important">
+          <div className="flex flex-row overflow-hidden justify-between  !important">
                <div>
                    <SideBar/>
               </div>

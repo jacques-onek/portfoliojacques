@@ -31,6 +31,7 @@ const SideBar = () => {
   }, []);
   return (
     <nav className=' min-h-screen w-16 bg-sideBar py-5 fixed overflow-x-hidden z-30 '>
+       <a href='/'><p className='text-xl font-extrabold text-center mb-2'>JO<span className='text-2xl text-fuchsia-700'>.</span></p></a>
       <div className='flex flex-col h-[80vh] justify-around  items-center gap-5 '>
         {SidebarLinks.map((links) => (
           <div key={links.title} className={cn('rotate-90 w-fit ',selected === links.href ? "bg-[#21202048] border-t-4 scroll-smooth py-2 px-3 lg:px-5  border-t-fuchsia-600":"")}>

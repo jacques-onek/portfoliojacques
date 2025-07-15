@@ -5,8 +5,8 @@ import RoughHighlight from './magicui/RoughNotation'
 
 const Auteur = () => {
   return (
-    <section className="flex w-full flex-col lg:flex-row ">
-      <div className="w-auto max-lg:w-4/5 flex flex-col gap-5">
+    <section className="flex w-full  flex-col lg:flex-row ">
+      <div className="w-auto  flex flex-col gap-5">
         <BoxReveal>
           <h1 className="text-3xl font-black  lg:text-7xl">
             Jack Onek <span className="text-fuchsia-600 text-4xl">.</span>{" "}
@@ -17,8 +17,7 @@ const Auteur = () => {
             Développeur web{" "}
           </p>
         </BoxReveal>
-        {/* <BoxReveal></BoxReveal> */}
-        <p className="w-[17rem] md:w-4/5 lg:w-xl lg:text-xl leading-8">
+        <p className="w-[18rem] md:w-4/5 lg:w-xl lg:text-xl ">
           <RoughHighlight type="underline" color="#a21caf">
             Fullstack{" "}
           </RoughHighlight>{" "}
@@ -27,9 +26,7 @@ const Auteur = () => {
             Next.js
           </RoughHighlight>
           . Je conçois des{" "}
-          <RoughHighlight type="underline" color="#a21caf">
             applications web
-          </RoughHighlight>{" "}
           <RoughHighlight type="underline" color="#a21caf">
             modernes
           </RoughHighlight>{" "}
@@ -46,9 +43,7 @@ const Auteur = () => {
             design soigné
           </RoughHighlight>
           ,{" "}
-          <RoughHighlight type="underline" color="#a21caf">
             expérience
-          </RoughHighlight>{" "}
           utilisateur{" "}
           <RoughHighlight type="underline" color="#a21caf">
             fluide
@@ -64,9 +59,11 @@ const Auteur = () => {
         </span>
 
         <BoxReveal>
-          <button className="bg-fuchsia-800 py-4 px-8 rounded-md">
-            Contact me
-          </button>
+          <a href="#contact">
+            <button className="bg-fuchsia-800 py-4 transition duration-300 hover:bg-fuchsia-600 px-8 rounded-md">
+              Contactez moi
+            </button>
+          </a>
         </BoxReveal>
       </div>
       <div className="w-full flex-1 max-md:hidden ">

@@ -17,7 +17,7 @@ const Social = ({isFooter}:{isFooter:boolean}) => {
             </li>
             {/* whatsapp */}
             <li>
-              <a href="https://wa.me/243812345678?text=Bonjour%20je%20veux%20plus%20d'informations%20de%20tes%20services%20web" target="_blank">
+              <a href="https://wa.me/243894374697?text=Bonjour%20je%20veux%20plus%20d'informations%20de%20tes%20services%20web" target="_blank">
                  <FaWhatsapp className='size-6 transition duration-300  hover:fill-fuchsia-600'/>
               </a>
             </li>

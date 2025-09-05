@@ -11,9 +11,9 @@ const geistSans = IBM_Plex_Sans_Condensed({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfoliojackonek.vercel.app"),
-  title: "Jack Onek - Développeur Fullstack Next.js",
+  title: "Développeur Fullstack Next.js|react.js|node.js",
   description:
-    "Développeur fullstack  Next.js, React et Node.js. Je crée des applications web performantes et des solutions sur mesure.",
+    "Développeur Full-Stack basé à Kinshasa, RDC – spécialisé en Next.js, React et Node.js . Je crée des applications web performantes et des solutions sur mesure.",
   icons: {
     icon: "./assets/favicon.ico",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jack Onek - Développeur Fullstack Next.js",
     description:
-      "Développeur fullstack  Next.js, React et Node.js. Je crée des applications web performantes et des solutions sur mesure.",
+      "Développeur Full-Stack basé à Kinshasa, RDC – spécialisé en Next.js, React et Node.js. Je crée des applications web performantes et des solutions sur mesure.",
     url: "https://portfoliojackonek.vercel.app",
     type: "website",
     images: [

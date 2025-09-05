@@ -11,17 +11,17 @@ const geistSans = IBM_Plex_Sans_Condensed({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfoliojackonek.vercel.app"),
-  title: "Jacques Onekonga - Développeur Fullstack Next.js",
+  title: "Jack Onek - Développeur Fullstack Next.js",
   description:
-    "Développeur full-stack  Next.js, React et Node.js. Je crée des applications web performantes et des solutions sur mesure.",
+    "Développeur fullstack  Next.js, React et Node.js. Je crée des applications web performantes et des solutions sur mesure.",
   icons: {
     icon: "./assets/favicon.ico",
   },
   // Facebook
   openGraph: {
-    title: "Jacques Onekonga - Développeur Fullstack Next.js",
+    title: "Jack Onek - Développeur Fullstack Next.js",
     description:
-      "Développeur full-stack  Next.js, React et Node.js. Je crée des applications web performantes et des solutions sur mesure.",
+      "Développeur fullstack  Next.js, React et Node.js. Je crée des applications web performantes et des solutions sur mesure.",
     url: "https://portfoliojackonek.vercel.app",
     type: "website",
     images: [
